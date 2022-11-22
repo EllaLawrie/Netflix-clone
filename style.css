@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 @font-face {
   font-family: 'Netflix Sans';
   src: url('./fonts/netflix-sans/NetflixSansRegular.ttf');
@@ -267,7 +265,7 @@ section.hero__section {
 
 @media (min-width: 1366px) {
   section.hero__section {
-    height: 692px;
+    height: 100vh;
   }
 }
 
