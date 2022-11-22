@@ -278,3 +278,53 @@ section.hero__section {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+/* FAQs section */
+.faqs__section h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.faqs__section ul {
+  width: 100%;
+  margin: 0 auto 3rem;
+}
+
+.faqs__section ul > li {
+  width: 100%;
+  margin: 0 auto 10px;
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background-color: var(--grey);
+}
+
+@media (min-width: 650px) {
+  .faqs__section ul {
+    max-width: 610px;
+  }
+
+  .faqs__section ul > li {
+    font-size: 1.625rem;
+    padding: 14px 1.875rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .faqs__section ul {
+    max-width: 815px;
+  }
+
+  .faqs__section ul > li {
+    max-width: 815px;
+  }
+}
+
+.form__container {
+  width: 90%;
+  max-width: 640px;
+  margin: 0 auto;
+}
