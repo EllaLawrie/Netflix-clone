@@ -107,6 +107,87 @@ form > button {
   }
 }
 
+/* Figure and image styling */
+figure {
+  width: 100%;
+  max-width: 446px;
+}
+
+figure > img {
+  width: 100%;
+}
+
+/* general container styling */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* text titles and subtitles */
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+h3.subtitle {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 650px) {
+  .title {
+    font-size: 3.125rem;
+  }
+
+  .subtitle {
+    font-size: 1.625rem;
+  }
+
+  h3.subtitle {
+    font-size: 1.1875rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+}
+
+/* story card styling for section contents */
+.story_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 1.5rem;
+}
+
+@media (min-width: 850px) {
+  .story_card {
+    justify-content: space-between;
+    flex-flow: row;
+  }
+}
+
+/* texts container styling */
+.texts {
+  text-align: center;
+  width: 100%;
+  max-width: 530px;
+}
+
+@media (min-width: 850px) {
+  .texts {
+    text-align: left;
+  }
+}
+
 /* Header */
 header {
   width: 100%;
